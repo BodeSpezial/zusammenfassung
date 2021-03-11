@@ -10,7 +10,21 @@
 \usepackage[familydefault,regular]{Chivo}
 \usepackage[T1]{fontenc}
 
+\NewDocumentEnvironment{sts}{mm}{
+        \subsection*{#1}
+        \addcontentsline{toc}{subsection}{#1}
+        \begin{minipage}[t]{0.5\textwidth}\label{#1}
+}{
+        \end{minipage}% % leave no gap
+        \begin{minipage}[t]{0.5\textwidth}
+                #2
+        \end{minipage}% % leave no gap
+}
+
 \begin{document}
+
+        \tableofcontents
+        \newpage
 
         % docuent-body
         %% Merken
