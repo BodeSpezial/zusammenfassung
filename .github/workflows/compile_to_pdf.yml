@@ -15,3 +15,12 @@ jobs:
         uses: dante-ev/latex-action@v0.2.0
         with:
           root_file: zusammenfassung.tex
+      - name: Create release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Neuste Zusammenfassung"
+          files: ./zusammenfassung.pdf
+
