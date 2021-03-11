@@ -7,6 +7,9 @@
 
 \usepackage{microtype}
 
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
 \usepackage[familydefault,regular]{Chivo}
 \usepackage[T1]{fontenc}
 
@@ -28,10 +31,177 @@
 
         % docuent-body
         %% Merken
+        \section{Merks\"atze}%
+        \begin{sts}{Feldst\"arke}{}
+                $$
+                Felds = \frac{F_{Feld}}{Quanta}
+                $$
+        \end{sts}
+
+        \begin{sts}{Energie}{Unter der Energie einer K\"orpers oders Systems versteht man seine F\"ahigkeit Arbeit zu verrichten}
+        \end{sts}
 
         %% Konstanten
+        \section{Konstanten}
+        \subsection*{magnetische Feldkonstante}
+        \addcontentsline{toc}{subsection}{magnetische Feldkonstante}
+        $$ \mu _0 = 4\pi\cdot 10^{-7}\frac{Vs}{Am} = 1,257\cdot10^{-6}\frac{Vs}{Am} $$
+
+        \subsection*{elektrische Feldkonstante}
+        \addcontentsline{toc}{subsection}{elektrische Feldkonstante}
+        $$\epsilon_0 = 8,854187\cdot 10^{-12}\frac{As}{Vm}$$
 
         %% Formeln
+        \section{Formeln}
+
+        \begin{sts}{Orts-Zeit-Gesetz}{}
+                $$
+                s(t) = v\cdot t + s_0
+                $$
+        \end{sts}
+
+        \begin{sts}{Geschwindigkeits-Zeit-Gesetz}{}
+                $$
+                v(t) = at+v_0
+                $$
+        \end{sts}
+
+        \begin{sts}{Weg-Zeit-Gesetz}{}
+                $$
+                s(t) = \frac{1}{2}at^2+s_0
+                $$
+        \end{sts}
+
+        \begin{sts}{Kraft}{}
+                $$
+                F = ma
+                $$
+        \end{sts}
+
+        \begin{sts}{Hubarbeit}{}
+                $$
+                W_H = mgh
+                $$
+        \end{sts}
+
+        \begin{sts}{Spannarbeit}{}
+                $$
+                W_S = \frac{1}{2} Ds^2
+                $$
+        \end{sts}
+        
+        \begin{sts}{Beschleunigungsarbeit}{}
+                $$
+                W_b = \frac{1}{2} mv^2
+                $$
+        \end{sts}
+
+        \begin{sts}{Leistung}{}
+                $$
+                P = \frac{W}{t}
+                $$
+        \end{sts}
+
+        \begin{sts}{Winkelgeschwindigkeit}{}
+                $$
+                \omega = \frac{\Delta\phi}{\Delta t}
+                $$
+        \end{sts}
+
+        \begin{sts}{Bahngeschwindigkeit}{}
+                $$
+                v = \omega r
+                $$
+        \end{sts}
+
+        \begin{sts}{Zentralbeschleunigung}{}
+               $$
+               a_Z = \frac{v^2}{r}
+               $$
+        \end{sts}
+
+        \begin{sts}{Zentralkraft}{}
+                $$
+                F_Z = mr\omega^2
+                $$
+        \end{sts}
+        
+        \begin{sts}{3. Kepler'sches Gesetz}{}
+                $$
+                \frac{T_1^2}{T_2^2}=\frac{a_1^3}{a_2^3}
+                $$
+        \end{sts}
+        
+        \begin{sts}{Gravitationskraft}{}
+                $$
+                F_G = f\cdot\frac{m_1m_2}{r^2}
+                $$
+        \end{sts}
+
+        \begin{sts}{Gravitationsfeldst\"arke}{Die Gravitationsfeldst\"arke ist die Kraft ($F_G$) die an einem bestimmenten Punkt auf einen K\"orper der Masse $m$ wirkt. Die Fallbeschleunigung (Ortsfaktor) $\vec{g}$ ist die Gravitationsfeldst\"arke.}
+                $$
+                \vec{g}=\frac{\vec{F}_G}{m}
+                $$
+        \end{sts}
+
+        \begin{sts}{elektrische Stromst\"arke}{}
+                $$
+                Q=I\cdot t
+                $$
+        \end{sts}
+
+        \begin{sts}{elektrische Feldst\"arke}{}
+                $$
+                \vec{E}=\frac{\vec{F}_C}{q}
+                $$
+        \end{sts}
+
+        \begin{sts}{Arbeit im elektrischen Feld}{}
+                $$
+                W= \pm q\cdot E\cdot d
+                $$
+        \end{sts}
+
+        \begin{sts}{elektrische Spannung}{}
+                $$
+                U = \frac{W}{q}
+                $$
+        \end{sts}
+
+        \begin{sts}{Kapazit\"at Plattenkondensator}{Kapazit\"at eines Plattenkondensators mit der Dielektrizit\"atskonstante $\epsilon_r$, der Plattenfl\"ache A und dem Plattendurchmesser d.}
+                $$
+                C= \epsilon_r\epsilon_0\frac{A}{d}
+                $$
+        \end{sts}
+
+        \begin{sts}{Energie des elektrischen Feldes}{}
+                $$
+                W_{el} = \frac{1}{2}CU^2 = \frac{Q^2}{C}
+                $$
+        \end{sts}
+
+        \begin{sts}{magnetische Flussdichte}{}
+                $$
+                B = \frac{F}{I\cdot L}
+                $$
+        \end{sts}
+
+        \begin{sts}{Lorentzkraft}{Kraft auf einen Ladungstr\"ager, mit der Ladung $Q$, welches sich mit der Geschwindigkeit $v$ durch ein Magnetfeld mit der Flussdichte $B$ bewegt.}
+                $$
+                F_L = Q\cdot v\cdot B
+                $$
+        \end{sts}
+
+        \begin{sts}{magnetische Flussdichte im innern einer Spule}{}
+                $$
+                B = \mu_0 \cdot\mu_r\cdot I\cdot \frac{n}{l}
+                $$
+        \end{sts}
+
+        \begin{sts}{UVW-Regel}{Wenn der Daumen der rechten Hand in positive Stromrichtung und der Zeigefinger in Magnetfeldrichtung zeigt, so zeigt der Mittelfinger in die Richtung der Kraft, die auf den Ladungstr\"ager wirkt.}
+                \includegraphics[width=0.8\textwidth]{uvw-ifb-regel}
+        \end{sts}
 
         % docuent-body
+
 \end{document}
