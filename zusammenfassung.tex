@@ -33,36 +33,48 @@
 
         % docuent-body
         %% Merken
-        \section{Merks\"atze}%
-        \begin{sts}{Feldst\"arke}{}
+        \section{Begrifflichkeiten}%
+        \begin{sts}{Feldstärke}{Die Feldstärke ist der Einfluss, der ein homogenes Feld mit der Kraft $F$ auf einen Körper auswirkt, der sich in dem Feld befindet.}
                 $$
                 Felds = \frac{F_{Feld}}{Quanta}
                 $$
         \end{sts}
 
-        \begin{sts}{Energie}{Unter der Energie einer K\"orpers oders Systems versteht man seine F\"ahigkeit Arbeit zu verrichten}
-        \end{sts}
+        \subsection*{Energie}%
+        \addcontentsline{toc}{subsection*}{Energie}
+        \label{sub:Energie}
+        Unter der Energie einer Körpers oder Systems versteht man dessen Fähigkeit Arbeit zu verrichten.
 
+        \subsection*{Homogenität}%
+        \addcontentsline{toc}{subsection*}{Homogenität}
+        \label{ssub:Homogenität}
+        Man spricht von etwas homogenem, wenn es über den gesamten Bereich gleich ist. Unter homogenen Feldern versteht man bspw. solche, die an jedem Punkt des Feldes die gleichen Eigentschaften haben. Homogene Felder sind oftmals einfacher zu berechnen. \\$\Rightarrow$ Gegensatz: Heterogenität % TODO: verlinken
+
+        \subsection*{Heterogenität}%
+        \addcontentsline{toc}{subsection*}{Heterogenität}
+        \label{sub:Heterogenität}
+        Man spricht von etwas heterogenem, wenn es im betrachteten Bereich nicht gleich ist. Ein heterogenes Feld hat man, wenn das Feld nicht an jedem Feldpunkt die gleichen Eigentschaften hat. \\$\Rightarrow$ Gegensatz: Homogenität % TODO: verlinken
+        
         %% Konstanten
         \section{Konstanten}
-        \subsection*{magnetische Feldkonstante}
-        \addcontentsline{toc}{subsection}{magnetische Feldkonstante}
-        $$ \mu _0 = 4\pi\cdot 10^{-7}\frac{Vs}{Am} = 1,257\cdot10^{-6}\frac{Vs}{Am} $$
-
         \subsection*{elektrische Feldkonstante}
         \addcontentsline{toc}{subsection}{elektrische Feldkonstante}
         $$\epsilon_0 = 8,854187\cdot 10^{-12}\frac{As}{Vm}$$
 
+        \subsection*{magnetische Feldkonstante}
+        \addcontentsline{toc}{subsection}{magnetische Feldkonstante}
+        $$ \mu _0 = 4\pi\cdot 10^{-7}\frac{Vs}{Am} = 1,257\cdot10^{-6}\frac{Vs}{Am} $$
+
         %% Formeln
         \section{Formeln}
 
-        \begin{sts}{Orts-Zeit-Gesetz}{}
+        \begin{sts}{Orts-Zeit-Gesetz}{Der aktuelle Ort eines sich gleichf\"ormig K\"orpers ergibt sich aus dem Ort zum Zeitpunkt 0 addiert zur Geschwindigkeit mal der verstrichenen Zeit.}
                 $$
                 s(t) = v\cdot t + s_0
                 $$
         \end{sts}
 
-        \begin{sts}{Geschwindigkeits-Zeit-Gesetz}{}
+        \begin{sts}{Geschwindigkeits-Zeit-Gesetz}{Die Geschwindigkeit eines gleichmässig beschleunigten K\"orpers ergibt sich aus der Bescleunigung multipliziert mit der verstrichenen Zeit und der eventuellen Geschwindigkeit zum Zeitpunkt 0.}
                 $$
                 v(t) = at+v_0
                 $$
@@ -74,19 +86,19 @@
                 $$
         \end{sts}
 
-        \begin{sts}{Kraft}{}
+        \begin{sts}{Kraft}{Die Grundgleichung der Mechanik definiert die Kraft, die ein Körper ausübt, als seine Masse multipliziert mit seiner Beschleunigung.}
                 $$
                 F = ma
                 $$
         \end{sts}
 
-        \begin{sts}{Hubarbeit}{}
+        \begin{sts}{Hubarbeit}{ist die Arbeit, die verrichtet werden muss um einen Körper (der Masse $m$) in die Höhe $h$ zu bringen (entgegen der Ortsbeschleunigung $g$).}
                 $$
                 W_H = mgh
                 $$
         \end{sts}
 
-        \begin{sts}{Spannarbeit}{}
+        \begin{sts}{Spannarbeit}{wird verrichtet, wenn man eine Feder spannt. Jede Feder hat eine eigene Federkonstante $D$.}
                 $$
                 W_S = \frac{1}{2} Ds^2
                 $$
@@ -98,19 +110,19 @@
                 $$
         \end{sts}
 
-        \begin{sts}{Leistung}{}
+        \begin{sts}{Leistung}{Die Leistung eines Systems ist die verrichtete Arbeit $W$ pro Zeiteinheit $t$.}
                 $$
                 P = \frac{W}{t}
                 $$
         \end{sts}
 
-        \begin{sts}{Winkelgeschwindigkeit}{}
+        \begin{sts}{Winkelgeschwindigkeit}{ist die Geschwindigkeit, mit der ein Punkt einen Winkel $\phi$ in der Zeit $t$ überstreicht.}
                 $$
                 \omega = \frac{\Delta\phi}{\Delta t}
                 $$
         \end{sts}
 
-        \begin{sts}{Bahngeschwindigkeit}{}
+        \begin{sts}{Bahngeschwindigkeit}{Die Bahngeschwindigkeit eines Punktes ist die }
                 $$
                 v = \omega r
                 $$
@@ -122,7 +134,7 @@
                $$
         \end{sts}
 
-        \begin{sts}{Zentralkraft}{}
+        \begin{sts}{Zentralkraft}{ist die Kraft, die auf einen Körper der Masse $m$ wirkt, der sich auf einer Kreisbahn befindet und sich mit gleichförmiger Bahngeschwindigkeit bewegt.}
                 $$
                 F_Z = mr\omega^2
                 $$
@@ -146,9 +158,9 @@
                 $$
         \end{sts}
 
-        \begin{sts}{elektrische Stromst\"arke}{}
+        \begin{sts}{elektrische Stromst\"arke}{Bewegte Ladungsträger nennt man Strom.}
                 $$
-                Q=I\cdot t
+                I=Q\cdot t
                 $$
         \end{sts}
 
@@ -170,7 +182,7 @@
                 $$
         \end{sts}
 
-        \begin{sts}{Kapazit\"at Plattenkondensator}{Kapazit\"at eines Plattenkondensators mit der Dielektrizit\"atskonstante $\epsilon_r$, der Plattenfl\"ache A und dem Plattendurchmesser d.}
+        \begin{sts}{Kapazit\"at Plattenkondensator}{Kapazit\"at eines Plattenkondensators mit der Dielektrizit\"atskonstante $\epsilon_r$, der Plattenfl\"ache $A$ und dem Plattendurchmesser $d$.}
                 $$
                 C= \epsilon_r\epsilon_0\frac{A}{d}
                 $$
@@ -188,13 +200,13 @@
                 $$
         \end{sts}
 
-        \begin{sts}{Lorentzkraft}{Kraft auf einen Ladungstr\"ager, mit der Ladung $Q$, welches sich mit der Geschwindigkeit $v$ durch ein Magnetfeld mit der Flussdichte $B$ bewegt.}
+        \begin{sts}{Lorentzkraft}{Kraft auf einen Ladungstr\"ager, mit der Ladung $Q$, welcher sich mit der Geschwindigkeit $v$ durch ein Magnetfeld mit der Flussdichte $B$ bewegt.}
                 $$
                 F_L = Q\cdot v\cdot B
                 $$
         \end{sts}
 
-        \begin{sts}{magnetische Flussdichte im innern einer Spule}{}
+        \begin{sts}{magnetische Flussdichte im Innern einer Spule}{}
                 $$
                 B = \mu_0 \cdot\mu_r\cdot I\cdot \frac{n}{l}
                 $$
